@@ -22,5 +22,5 @@ print("Rata-rata: $r");
 int endTime = DateTime.now().microsecondsSinceEpoch;
 
 double executionTime = (endTime - startTime) / 1000;
-print("Waktu eksekusi: $executionTime");
+print("Waktu eksekusi: $executionTime mili detik");
 }
